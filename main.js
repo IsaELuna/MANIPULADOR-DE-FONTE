@@ -43,5 +43,5 @@ function draw() {
     document.getElementById("font_size").innerHTML = "Tamanho da fonte será = " + difference +"px";
   textSize(difference);
   fill('#FFE787');
-  text('Pedro', 50, 400);
+  text('Isa', 50, 400);
   }
