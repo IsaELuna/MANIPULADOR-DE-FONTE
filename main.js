@@ -38,10 +38,10 @@ function gotPoses(results)
 }
 
 function draw() {
-background('#969A97');
-
-  document.getElementById("word_side").innerHTML = "Largura e altura serão = " + difference +"px";
-  fill('#F90093');
-  stroke('#F90093');
-  square(noseX, noseY, difference);
-}
+  background('#6C91C2');
+  
+    document.getElementById("font_size").innerHTML = "Tamanho da fonte será = " + difference +"px";
+  textSize(difference);
+  fill('#FFE787');
+  text('Pedro', 50, 400);
+  }
